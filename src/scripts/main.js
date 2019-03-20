@@ -5,10 +5,14 @@ let formHtml = `<fieldset>
 <label for="lego__creator">Creator:</label>
 <input id="lego__creator" name="lego__creator" type="text" autofocus />
 </fieldset>
-<fieldset>
-<label for="lego__color">Color:</label>
-<input id="lego__color" name="lego__color" type="text" autofocus />
-</fieldset>
+<select id="lego__color">
+    <option value="1">Red</option>
+    <option value="2">Green</option>
+    <option value="3">Yellow</option>
+    <option value="4">Blue</option>
+    <option value="5">Orange</option>
+    <option value="6">Black</option>
+</select>
 <fieldset>
 <label for="lego__shape">Shape:</label>
 <input id="lego__shape" name="lego__shape" type="text" autofocus />
@@ -26,7 +30,7 @@ displayContainer.innerHTML = formHtml;
 const createLegoBrick = (creator, color, shape, creation) => {
   return {
     creator: creator,
-    color: color,
+    color: parseInt(color),
     shape: shape,
     creation: creation
   }
