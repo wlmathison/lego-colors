@@ -6,6 +6,53 @@
       "shape": "rectangle",
       "creation": "table",
       "id": 1
+    },
+    {
+      "creator": "me",
+      "color": "5",
+      "shape": "square",
+      "creation": "table",
+      "id": 2
+    },
+    {
+      "creator": "me",
+      "color": "1",
+      "shape": "circle",
+      "creation": "table",
+      "id": 3
+    },
+    {
+      "creator": "me",
+      "color": 3,
+      "shape": "rectangle",
+      "creation": "couch",
+      "id": 4
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "color": "Red"
+    },
+    {
+      "id": 2,
+      "color": "Green"
+    },
+    {
+      "id": 3,
+      "color": "Yellow"
+    },
+    {
+      "id": 4,
+      "color": "Blue"
+    },
+    {
+      "id": 5,
+      "color": "Orange"
+    },
+    {
+      "id": 6,
+      "color": "Black"
     }
   ]
 }
